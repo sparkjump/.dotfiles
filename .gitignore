@@ -1,0 +1,51 @@
+# Ignore macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ignore temporary files
+*~
+
+# Ignore backup files
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# Ignore compiled files
+*.o
+*.out
+*.class
+*.exe
+
+# Ignore logs
+*.log
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+
+# Ignore package manager files
+node_modules/
+vendor/
+*.lock
+
+# Ignore personal config files
+~/.bash_history
+~/.zsh_history
+~/.ssh/config
+~/.ssh/id_rsa
+~/.gnupg/private-keys-v1.d/
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore other editor-specific files
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.iml
+
+# Ignore other system-specific files
+Thumbs.db
